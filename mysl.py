@@ -29,7 +29,7 @@ urllib.request.urlretrieve('https://github.com/FFRONGG/Streamlit_HW5/blob/main/5
 img = Image.open("sample.png")
 
 st.set_page_config(layout="wide")
-image = Image.open('/content/drive/MyDrive/5120x3200_night-city-road-traffic-light-minneapolis.jpg')
+#image = Image.open('/content/drive/MyDrive/5120x3200_night-city-road-traffic-light-minneapolis.jpg')
 st.image(img,use_column_width=True)
 st.title(":bar_chart: WEB MAP CREATED FROM STREAMLIT")
 st.text("By Chirawat Kochabog 6130828021")
