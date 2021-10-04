@@ -7,3 +7,4 @@ numpy==1.19.5
 pydeck==0.7.0
 pyngrok==5.1.0
 altair==4.1.0
+Pillow==7.1.2
