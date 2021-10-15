@@ -20,19 +20,13 @@ import pandas as pd
 import numpy as np
 import altair as alt
 import pydeck as pdk
-from PIL import Image
+
 
 # SETTING PAGE CONFIG TO WIDE MODE
-import urllib.request
-urllib.request.urlretrieve('https://github.com/FFRONGG/Streamlit_HW5/blob/main/5120x3200_night-city-road-traffic-light-minneapolis.jpg?raw=true', "sample.png")
-
-img = Image.open("sample.png")
 
 st.set_page_config(layout="wide")
-#image = Image.open('/content/drive/MyDrive/5120x3200_night-city-road-traffic-light-minneapolis.jpg')
-st.image(img,use_column_width=True)
-st.title(":bar_chart: WEB MAP CREATED FROM STREAMLIT")
-st.text("By Chirawat Kochabog 6130828021")
+
+st.text("By ใส่ชื่อตัวเอง")
 
 ##################################################################################
 ###########################################################################################
